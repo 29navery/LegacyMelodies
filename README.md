@@ -24,5 +24,3 @@ With a JDK 25 installation, run:
 ```
 
 On Windows, use `gradlew.bat clean build`. Output is in `build/libs/`. GitHub Actions builds pushes and uploads the JARs under **Artifacts** on the workflow run.
-
-Seven regression tests check menu/credits selection, survival/creative/underwater precedence, Nether filtering, End selection, null handling, the exact C418 sound pools, and Minecraft 26.3's mixin target signatures. They do not launch the graphical game or verify live audio playback.
