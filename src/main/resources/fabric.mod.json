@@ -1,33 +1,33 @@
 {
-	"schemaVersion": 1,
-	"id": "legacy-melodies",
-	"version": "0.2.1",
-	"name": "Legacy Melodies",
-	"description": "Restores old music logic and keeps to only C418 songs",
-	"authors": [
-		"Nicky_lul"
-	],
-	"contact": {
-		"sources": "https://github.com/Nicky_lul/legacy-melodies"
-	},
-	"license": "MIT",
-	"icon": "assets/legacy-melodies/icon.png",
-	"environment": "client",
-	"entrypoints": {
-		"client": [
-			"com.legacymelodies.client.LegacyMelodiesClient"
-		]
-	},
-	"mixins": [
-		{
-			"config": "legacy-melodies.client.mixins.json",
-			"environment": "client"
-		}
-	],
-	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": ">=26.1 <27",
-		"java": ">=25",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "legacy-melodies",
+  "version": "${version}",
+  "name": "Legacy Melodies",
+  "description": "Restores old music logic and keeps to only C418 songs",
+  "authors": [
+    "Nicky_lul"
+  ],
+  "contact": {
+    "sources": "https://github.com/29navery/LegacyMelodies"
+  },
+  "license": "MIT",
+  "icon": "assets/legacy-melodies/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.legacymelodies.client.LegacyMelodiesClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "legacy-melodies.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
 }
