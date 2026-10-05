@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.legacymelodies.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MusicManagerMixin",
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
